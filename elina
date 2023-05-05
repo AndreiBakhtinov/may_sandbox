@@ -1,0 +1,3 @@
+SELECT *, Employees.LastName
+FROM [Orders]
+JOIN Employees ON Employees.EmployeeID = Orders.Emplo @ yeeID;
