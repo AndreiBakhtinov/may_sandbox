@@ -1,0 +1,3 @@
+SELECT * 
+FROM Products
+LEFT JOIN Suppliers ON Suppliers.SupplierID=Products.SupplierID
