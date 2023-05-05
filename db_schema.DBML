@@ -1,0 +1,5 @@
+Table Shippers {
+  ShipperID int [pk]
+  ShipperName varchar
+  Phone varchar  
+}
