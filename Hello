@@ -1,1 +1,9 @@
 Hello people!!!
+git checkout -b Vkakurin
+SELECT
+* FROM Customers
+WHERE Country='China'
+git add .
+git commit -m 'andrei update'
+git push -u origin andrei
+git pull --all
