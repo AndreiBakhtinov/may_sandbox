@@ -1,0 +1,4 @@
+SELECT * 
+FROM Orders
+Left Join Customers On Orders.CustomerID = Customers.CustomerID
+Where Customers.Country != 'USA'
