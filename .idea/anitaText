@@ -1,5 +1,0 @@
-Вывести последние 10 заказов                 SELECT
-OrderID
-FROM Orders
-order by OrderDate desc
-limit 10
