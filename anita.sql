@@ -1,3 +1,4 @@
+вывести последние 10 зказов :
 select
 orderId
 from orders
