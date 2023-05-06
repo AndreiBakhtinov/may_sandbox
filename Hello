@@ -1,1 +1,2 @@
-Hello people!!!
+SELECT * FROM [Products]
+Join Suppliers on Suppliers.SupplierID
