@@ -1,0 +1,16 @@
+Index: anita.sql
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/anita.sql b/anita.sql
+--- a/anita.sql	(revision 18e222c6ddaceae47113aeea0261d7cb36522517)
++++ b/anita.sql	(date 1683379960538)
+@@ -1,0 +1,6 @@
++Вывести  последние 10 заказов:
++select
++orderId
++from orders
++order by OrderDate desc
++limit 10
+\ No newline at end of file
